@@ -10,9 +10,11 @@ Additionally, it was designed for the preexisting available components that were
 
 # Assembly
 Silkscreen is simplified for hand assembly so;
+--------------------------------------------
 R1 = 1k   |   C1 = 100nF  |  L1 = 10uH
 R2 = 470  |  C2 = 22pF    |
 R3 = 10k  |  C3 = 10uF    |
+--------------------------------------------
 
 LED's labels:
 R --> RED
