@@ -47,6 +47,7 @@ R1 next to the PWR led should be more than 1k unless you want it to always be to
 5. Burning the bootloader steps. In Tools set Board: Breadboard Arduino/ ATmega328p, Programmer: Arduino as ISP, then click Burn Bootloader.
 
 *Notice*: I am using a 20MHz crystal because that was the only one I had. That's why I am using this bootloader. If you have a 16MHz crystal other bootloaders should not only work but be better overall.
+But in this case for simplicity's sake, this will work. (And does)
 
 6. You should see "Done Burning Bootloader". Now you're set and can unplug your jumper wires and store your Arduino Uno you won't need it anymore.
 
