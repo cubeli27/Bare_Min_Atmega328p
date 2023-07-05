@@ -10,7 +10,7 @@ Additionally, it was designed for the preexisting available components that were
 
 # Assembly
 
-Silkscreen is simplified for hand assembly so;
+Silkscreen is simplified for hand assembly hence the minimum amount of different values and the same names for many parts;
  ```ignore
  | Resistor |  Capacitor   | Inductor    |    LED                  |
  |----------|--------------|-------------|-------------------------|
