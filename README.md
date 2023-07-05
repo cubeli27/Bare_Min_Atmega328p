@@ -12,29 +12,14 @@ Additionally, it was designed for the preexisting available components that were
 
 Silkscreen is simplified for hand assembly so;
  ```ignore
- |   R      |   C          |   L
- |----------|--------------|------------------|
- | R1 = 1k  | C1 = 100nF   |  L1 = 10uH
- | R2 = 470 | C2 = 22pF    |
- | R3 = 10k | C3 = 10uF    |
+ | Resistor |  Capacitor   | Inductor    |    LED                  |
+ |----------|--------------|-------------|-------------------------|
+ | R1 = 1k  | C1 = 100nF   |  L1 = 10uH  | PWR = White             |
+ | R2 = 470 | C2 = 22pF    |             | R/G/B = Red/Green/Blue  |
+ | R3 = 10k | C3 = 10uF    |             | RX/TX = Orange          |
 
  ```
 
-R1 = 1k   |   C1 = 100nF  |  L1 = 10uH
-R2 = 470  |  C2 = 22pF    |
-R3 = 10k  |  C3 = 10uF    |
-
-
-LED's labels:
-R --> RED
-
-G --> GREEN
-
-B --> BLUE
-
-TX/RX --> ORANGE
-
-PWR --> WHITE 
 
 Tip: 
 R1 next to the PWR led should be more than 1k unless you want it to always be too bright, I recommend 1k8 or 2k2.
