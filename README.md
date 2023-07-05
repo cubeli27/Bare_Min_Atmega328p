@@ -9,12 +9,21 @@ Additionally, it was designed for the preexisting available components that were
 ![FD85354D-6141-4799-AFD3-7899771D79AB](https://github.com/cubeli27/Bare_Min_Atmega328p/assets/134604815/310bae56-21a8-453f-970b-b6daa55a1d49)
 
 # Assembly
+
 Silkscreen is simplified for hand assembly so;
---------------------------------------------
+ ```ignore
+ |   R      |   C          |   L
+ |----------|--------------|------------------|
+ | R1 = 1k  | C1 = 100nF   |  L1 = 10uH
+ | R2 = 470 | C2 = 22pF    |
+ | R3 = 10k | C3 = 10uF    |
+
+ ```
+
 R1 = 1k   |   C1 = 100nF  |  L1 = 10uH
 R2 = 470  |  C2 = 22pF    |
 R3 = 10k  |  C3 = 10uF    |
---------------------------------------------
+
 
 LED's labels:
 R --> RED
