@@ -29,6 +29,7 @@ R1 next to the PWR led should be more than 1k unless you want it to always be to
 2. Uncomment line 81 (// #define USE_OLD_STYLE_WIRING) 
 
 ![Capture](https://github.com/cubeli27/Bare_Min_Atmega328p/assets/134604815/28f24a41-0049-4fdf-ba29-87c680bc72ed)
+
 3. Upload the code to your Arduino Uno with Board: Arduino Uno, Programmer: AVRISP mkII.
 4. Connect Arduino Uno with the custom board
  ```ignore
@@ -44,7 +45,7 @@ R1 next to the PWR led should be more than 1k unless you want it to always be to
 ![IMG-0519](https://github.com/cubeli27/Bare_Min_Atmega328p/assets/134604815/d84351ba-188d-4cdd-98d3-a7fc82aea7c9)
 
 5. Burning the bootloader steps. In Tools set Board: Breadboard Arduino/ ATmega328p, Programmer: Arduino as ISP, then click Burn Bootloader.
-6. You should see "Done Burning Bootloader". Now you're set and can unplug your ICSP from Arduino Uno.
+6. You should see "Done Burning Bootloader". Now you're set and can unplug your jumper wire and store your Arduino Uno you won't need it anymore.
 7. Connect your custom board to your PC through USB cable.
 8. In order to upload any code just select in Tools Board:Arduino AVR Board/ Arduino Duemilanove or Diecimila.
 
