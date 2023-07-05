@@ -31,7 +31,7 @@ R1 next to the PWR led should be more than 1k unless you want it to always be to
 ![Capture](https://github.com/cubeli27/Bare_Min_Atmega328p/assets/134604815/28f24a41-0049-4fdf-ba29-87c680bc72ed)
 
 3. Upload the code to your Arduino Uno with Board: Arduino Uno, Programmer: AVRISP mkII.
-4. Connect Arduino Uno with the custom board
+4. Connect Arduino Uno with the custom board like so:
  ```ignore
  | Uno      |  Custom Board| 
  |----------|--------------|
@@ -45,9 +45,14 @@ R1 next to the PWR led should be more than 1k unless you want it to always be to
 ![IMG-0519](https://github.com/cubeli27/Bare_Min_Atmega328p/assets/134604815/d84351ba-188d-4cdd-98d3-a7fc82aea7c9)
 
 5. Burning the bootloader steps. In Tools set Board: Breadboard Arduino/ ATmega328p, Programmer: Arduino as ISP, then click Burn Bootloader.
-6. You should see "Done Burning Bootloader". Now you're set and can unplug your jumper wire and store your Arduino Uno you won't need it anymore.
-7. Connect your custom board to your PC through USB cable.
-8. In order to upload any code just select in Tools Board:Arduino AVR Board/ Arduino Duemilanove or Diecimila.
+6. You should see "Done Burning Bootloader". Now you're set and can unplug your jumper wires and store your Arduino Uno you won't need it anymore.
+7. 
+![Capture](https://github.com/cubeli27/Bare_Min_Atmega328p/assets/134604815/60ea35dd-088a-4fe0-80df-bdbf18407586)
+
+8. Connect your custom board to your PC through a USB cable.
+9. In order to upload any code just select in Tools Board: Arduino AVR Board/ Arduino Duemilanove or Diecimila and click Upload (arrow pointing right). You should see the orange LEDs flashing.
+10. If you want to start with the blink sketch make sure to use pins 5,6 or 7 because built-in LED's are on those pins.
+
 
 
 
