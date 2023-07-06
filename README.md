@@ -2,7 +2,8 @@
 Custom PCB made for available in-house parts. Made for testing the fab house, lab capabilities, and USB to UART.
 
 
-![](Images/AssembledBoard.jpg)
+<img src="Images/AssembledBoard.jpg" alt="Assembled Board" style="width:650px;">
+
 
 # Assembly
 
@@ -38,7 +39,7 @@ R1 next to the PWR led should be more than 1k unless you want it to always be to
  | 5v       | 5v           |
  | GND      | GND          |
  ```
-![](Images/ICSP.jpg)
+<img src="Images/ICSP.jpg" alt="ICSP" style="width:650px;">
 
 5. Burning the bootloader steps. In Tools set Board: Breadboard Arduino/ ATmega328p, Programmer: Arduino as ISP, then click Burn Bootloader.
 
