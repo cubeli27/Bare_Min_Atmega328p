@@ -51,7 +51,7 @@ But in this case for simplicity's sake, this will work. (And does)
 
 6. You should see "Done Burning Bootloader". Now you're set and can unplug your jumper wires and store your Arduino Uno you won't need it anymore.
 
-![Capture](https://github.com/cubeli27/Bare_Min_Atmega328p/assets/134604815/60ea35dd-088a-4fe0-80df-bdbf18407586)
+![Capture](./https://github.com/cubeli27/Bare_Min_Atmega328p/assets/134604815/60ea35dd-088a-4fe0-80df-bdbf18407586)
 
 7. Connect your custom board to your PC through a USB cable.
 8. In order to upload any code just select in Tools Board: Arduino AVR Board/ Arduino Duemilanove or Diecimila and click Upload (arrow pointing right). You should see the orange LEDs flashing.
