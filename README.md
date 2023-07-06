@@ -25,7 +25,7 @@ Tip:
 R1 next to the PWR led should be more than 1k unless you want it to always be too bright, I recommend 1k8 or 2k2.
 
 # Programming
-1. Open in Arduino IDE File/Examples/11.ArduinoISP/ArduinoISP
+1. Open in Arduino IDE File/Examples/11.ArduinoISP/ArduinoISP.
 2. Uncomment line 81 (// #define USE_OLD_STYLE_WIRING).
 
 ![](Images/UncommentLine.PNG)
