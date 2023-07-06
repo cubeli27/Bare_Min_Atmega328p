@@ -1,10 +1,6 @@
 # Bare_Min_Atmega328p
-Custom PCB made for available in-house parts. Made just for testing the fab house and lab capabilities.
+Custom PCB made for available in-house parts. Made for testing the fab house, lab capabilities, and USB to UART.
 
-# *Disclaimer*
-
-This board has no defined purpose it was made for testing the ordering process and the lab assembly capabilities. 
-Additionally, it was designed for the preexisting available components that were lying around the lab. Hence the part selection is suboptimal.
 
 ![](Images/AssembledBoard.jpg)
 
@@ -70,7 +66,10 @@ I am currently in the exam period so can't dedicate too much time to this projec
 That being said, I plan on writing my own bootloader for this specific board and uploading it here.
 
 
+# *Disclaimer*
 
+This board has no defined purpose it was made for testing the ordering process, the lab assembly capabilities, and USB to UART. 
+Additionally, it was designed for the preexisting available components that were lying around the lab. Hence the part selection is suboptimal.
 
 
 
