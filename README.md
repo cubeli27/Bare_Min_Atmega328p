@@ -64,6 +64,10 @@ But in this case for simplicity's sake, this will work. (And does)
  | PD5      | BLUE        |  
  ```
 
+# Future Work
+I am currently in the exam period so can't dedicate too much time to this project, since also I collected all the information I was interested in. 
+
+That being said, I plan on writing my own bootloader for this specific board and uploading it here.
 
 
 
