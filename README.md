@@ -41,17 +41,16 @@ R1 next to the PWR led should be more than 1k unless you want it to always be to
  ```
 <img src="Images/ICSP.jpg" alt="ICSP" style="width:400px;">
 
-5. Burning the bootloader steps. In Tools set Board: Breadboard Arduino/ ATmega328p, Programmer: Arduino as ISP, then click Burn Bootloader.
+5. Burning the bootloader steps. In Tools set Board: MiniCore/Atmega328 with Clock:"External 20 MHz", Programmer: Arduino as ISP, then click Burn Bootloader.
+This is the link to the MiniCore github: https://github.com/MCUdude/MiniCore
 
-*Notice*: I am using a 20MHz crystal because that was the only one I had. That's why I am using this bootloader. If you have a 16MHz crystal other bootloaders should not only work but be better overall.
-But in this case for simplicity's sake, this will work. (And does)
 
 6. You should see "Done Burning Bootloader". Now you're set and can unplug your jumper wires and store your Arduino Uno you won't need it anymore.
 
 <img src="Images/DoneBurningBootloader.PNG" alt="DoneBurningBootloader" style="width:400px;">
 
 7. Connect your custom board to your PC through a USB cable.
-8. In order to upload any code just select in Tools Board: Arduino AVR Board/ Arduino Duemilanove or Diecimila and click Upload (arrow pointing right). You should see the orange LEDs flashing.
+8. In order to upload any code just select in Tools Board: MiniCore/ Atmega328 with 20 MHz external clock and click Upload (arrow pointing right). You should see the orange LEDs flashing.
 9. If you want to start with the blink sketch make sure to use pins 5,6 or 7 because built-in LED's are on those pins.
  ```ignore
  | PIN      |  LED        | 
@@ -61,10 +60,7 @@ But in this case for simplicity's sake, this will work. (And does)
  | PD5      | BLUE        |  
  ```
 
-# Future Work
-I am currently in the exam period so can't dedicate too much time to this project, since also I collected all the information I was interested in. 
 
-That being said, I plan on writing my own bootloader for this specific board and uploading it here.
 
 
 # *Disclaimer*
