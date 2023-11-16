@@ -41,7 +41,7 @@ R1 next to the PWR led should be more than 1k unless you want it to always be to
  ```
 <img src="Images/ICSP.jpg" alt="ICSP" style="width:400px;">
 
-5. Burning the bootloader steps. In Tools set Board: Breadboard Arduino/ Atmega328p(8Mhz internal), Programmer: Arduino as ISP, then click Burn Bootloader.
+5. Burning the bootloader steps. In Tools set Board: Arduino Duemilanove or Diecimila, Programmer: Arduino as ISP, then click Burn Bootloader.
 
 
 
