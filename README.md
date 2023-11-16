@@ -1,5 +1,5 @@
 # Bare_Min_Atmega328p
-PCB designed for available in-house parts. Made for testing the fab house, lab capabilities, and USB to UART.
+PCB designed for available in-house parts. With my main goal to test the procces of ordering from a fab house, see the outcome, as well as lab capabilities with relatively tiny components, and USB to UART.
 
 
 <img src="Images/AssembledBoard.jpg" alt="Assembled Board" style="width:400px;">
