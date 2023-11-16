@@ -67,6 +67,7 @@ R1 next to the PWR led should be more than 1k unless you want it to always be to
 
 This board has no defined purpose it was made for testing the ordering process, the lab assembly capabilities, and USB to UART. 
 Additionally, it was designed for the preexisting available components that were lying around the lab. Hence the part selection is suboptimal.
+And looking back the design also isn't great, but this being the first board I ever ordered externally I'm super happy with the results adn with what I learned.
 
 
 
